@@ -1,0 +1,42 @@
+html {
+    background-color: #f3f3f3;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+li {
+    line-height: 1.75;
+}
+
+.d-flex {
+    display: flex;
+    height: 100vh;
+}
+
+.flex-1 {
+    flex: 1;
+    background-color: #fff;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.t-center {
+    text-align: center;
+}
+
+form {
+    margin: 30px 5%;
+    border: 1px solid darkgray;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+label + .MuiInput-formControl {
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
